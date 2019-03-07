@@ -12,7 +12,7 @@ SilverStripe\Core\Injector\Injector:
         RequestProcessorMiddleware: '%$SilverStripe\Control\RequestProcessor'
         FlushMiddleware: '%$SilverStripe\Control\Middleware\FlushMiddleware'
         ChangeDetectionMiddleware: '%$SilverStripe\Control\Middleware\ChangeDetectionMiddleware'
-        HTTPCacheControleMiddleware: '%$SilverStripe\Control\Middleware\HTTPCacheControlMiddleware'
+        HTTPCacheControlMiddleware: '%$SilverStripe\Control\Middleware\HTTPCacheControlMiddleware'
         CanonicalURLMiddleware: '%$SilverStripe\Control\Middleware\CanonicalURLMiddleware'
   SilverStripe\Control\Middleware\AllowedHostsMiddleware:
     properties:
